@@ -1,0 +1,90 @@
+/* Comentarios dentro de CSS */
+
+/* Selectores */
+
+/* Selector de Elemento */
+h1{
+    /* Bloque de Declaracion */
+    color: blue; 
+}
+
+/* Agrupación de Selectores */
+
+h2,h3{
+    color: red; 
+}
+
+/* Selector universal */
+
+*{
+    /* background-color: ; */
+}
+
+
+/* Selectores de Clases */
+/* No olviden colocar el punto (.) antes de la clase CSS */
+
+/* .titulo1{
+    color: green;
+}
+
+.otroClase{
+
+}
+
+.titulo2{
+    color: darkorange;
+}
+
+.titulo{
+    color: red;
+}
+
+.parrafo{
+    color: blue;
+} */
+
+/* Id */
+
+/* #google{
+    color: hotpink;
+}
+
+
+h6{
+    color: blueviolet !important;
+}
+
+.clase{
+    color: green;
+}
+
+#id{
+    color: red;
+} */
+
+
+.cajaPadre li:first-child{
+    color: red;
+}
+
+.cajaPadre li:last-child{
+    color: blue;
+}
+
+.cajaPadre li:nth-child(3){
+    color: green;
+}
+
+.cajaPadre li:nth-child(2){
+    color: yellow;
+}
+
+ol a:hover{
+    color: white;
+    background-color: red;
+}
+
+ol a:active{
+    background-color: blue;
+}
