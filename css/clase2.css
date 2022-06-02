@@ -1,0 +1,58 @@
+
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.caja1{
+
+    width: unset;
+    height: 200px;
+    /* Familia de Fuente */
+    
+
+    /* Keywords
+    
+        none: "ninguno"
+
+        inherit: el valor de una propiedad  en un elemento sera heredado
+
+        initial: establecer el valor de una propiedad en el valor inicial
+
+        unset: restablecer el valor de un elemento 
+    */
+}
+
+
+
+.caja1 h1{
+
+    /* Tamaño de fuente */
+    font-size: 50px;
+    /* Grosor de Fuente */
+    font-weight: 700;
+    /* Estilo de Fuente */
+    font-style:normal;
+
+    /* PROPIEDADES DE TEXTO */
+
+    /* Alineación de Texto */
+    text-align: center;
+    /* Altura de Linea */
+    line-height: 50px ;
+    /* Espaciado entre palabras */
+    word-spacing: normal;
+    /* Espaciado entre letras */
+    letter-spacing: normal;
+    /* Transformación de Texto */
+    text-transform: none;
+    /* Decoración de Texto */
+    text-decoration: none;
+    /* Sombra de Texto */
+    text-shadow: rgb(87, 124, 236) 5px 1px 4px;
+}
+
+.caja1 h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+}
